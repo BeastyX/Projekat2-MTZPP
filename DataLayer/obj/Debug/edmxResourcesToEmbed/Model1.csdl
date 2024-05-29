@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="Model1.Employee" />
+    <EntitySet Name="Clients" EntityType="Model1.Client" />
+    <EntitySet Name="Orders" EntityType="Model1.Order" />
+    <EntitySet Name="Items" EntityType="Model1.Item" />
+    <EntitySet Name="Products" EntityType="Model1.Product" />
+    <AssociationSet Name="OrderEmployee" Association="Model1.OrderEmployee">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="OrderClient" Association="Model1.OrderClient">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="ItemOrder" Association="Model1.ItemOrder">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="Order" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="ItemProduct" Association="Model1.ItemProduct">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Model1.OrderEmployee" FromRole="Employee" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Model1.OrderClient" FromRole="Client" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Model1.OrderEmployee" FromRole="Order" ToRole="Employee" />
+    <NavigationProperty Name="Client" Relationship="Model1.OrderClient" FromRole="Order" ToRole="Client" />
+    <NavigationProperty Name="Items" Relationship="Model1.ItemOrder" FromRole="Order" ToRole="Item" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="Model1.ItemOrder" FromRole="Item" ToRole="Order" />
+    <NavigationProperty Name="Product" Relationship="Model1.ItemProduct" FromRole="Item" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="Model1.ItemProduct" FromRole="Product" ToRole="Item" />
+  </EntityType>
+  <Association Name="OrderEmployee">
+    <End Type="Model1.Order" Role="Order" Multiplicity="*" />
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="1" />
+  </Association>
+  <Association Name="OrderClient">
+    <End Type="Model1.Order" Role="Order" Multiplicity="*" />
+    <End Type="Model1.Client" Role="Client" Multiplicity="1" />
+  </Association>
+  <Association Name="ItemOrder">
+    <End Type="Model1.Item" Role="Item" Multiplicity="*" />
+    <End Type="Model1.Order" Role="Order" Multiplicity="1" />
+  </Association>
+  <Association Name="ItemProduct">
+    <End Type="Model1.Item" Role="Item" Multiplicity="*" />
+    <End Type="Model1.Product" Role="Product" Multiplicity="1" />
+  </Association>
+</Schema>
