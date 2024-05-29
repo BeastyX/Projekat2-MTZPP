@@ -13,10 +13,10 @@ namespace DataLayer
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Model1Container : DbContext
+    public partial class ProjekatModelContainer : DbContext
     {
-        public Model1Container()
-            : base("name=Model1Container")
+        public ProjekatModelContainer()
+            : base("name=ProjekatModelContainer")
         {
         }
     

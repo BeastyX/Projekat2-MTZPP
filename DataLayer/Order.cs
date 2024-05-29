@@ -20,7 +20,7 @@ namespace DataLayer
             this.Items = new HashSet<Item>();
         }
     
-        public int Id { get; set; }
+        public int OrderID { get; set; }
         public System.DateTime OrderDate { get; set; }
     
         public virtual Employee Employee { get; set; }
