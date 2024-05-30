@@ -14,11 +14,11 @@ namespace DataLayer
     
     public partial class Item
     {
-        public int ItemID { get; set; }
-        public int Quantity { get; set; }
-        public decimal ItemPrice { get; set; }
+        //public int ItemID { get; set; }
+        //public int Quantity { get; set; }
+        //public decimal ItemPrice { get; set; }
     
-        public virtual Order Order { get; set; }
-        public virtual Product Product { get; set; }
+        //public virtual Order Order { get; set; }
+        //public virtual Product Product { get; set; }
     }
 }

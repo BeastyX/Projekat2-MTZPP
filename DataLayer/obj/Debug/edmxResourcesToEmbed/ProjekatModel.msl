@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjekatModelStoreContainer" CdmEntityContainer="ProjekatModelContainer">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="IsTypeOf(ProjekatModel.Employee)">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="IsTypeOf(ProjekatModel.Client)">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="IsTypeOf(ProjekatModel.Order)">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="IsTypeOf(ProjekatModel.Item)">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ItemPrice" ColumnName="ItemPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="IsTypeOf(ProjekatModel.Product)">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="OrderEmployee" TypeName="ProjekatModel.OrderEmployee" StoreEntitySet="Orders">
+      <EndProperty Name="Employee">
+        <ScalarProperty Name="EmployeeID" ColumnName="Employee_EmployeeID" />
+      </EndProperty>
+      <EndProperty Name="Order">
+        <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="OrderClient" TypeName="ProjekatModel.OrderClient" StoreEntitySet="Orders">
+      <EndProperty Name="Client">
+        <ScalarProperty Name="ClientID" ColumnName="Client_ClientID" />
+      </EndProperty>
+      <EndProperty Name="Order">
+        <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ItemOrder" TypeName="ProjekatModel.ItemOrder" StoreEntitySet="Items">
+      <EndProperty Name="Order">
+        <ScalarProperty Name="OrderID" ColumnName="Order_OrderID" />
+      </EndProperty>
+      <EndProperty Name="Item">
+        <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ItemProduct" TypeName="ProjekatModel.ItemProduct" StoreEntitySet="Items">
+      <EndProperty Name="Product">
+        <ScalarProperty Name="ProductID" ColumnName="Product_ProductID" />
+      </EndProperty>
+      <EndProperty Name="Item">
+        <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

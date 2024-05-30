@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ProjekatModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ProjekatModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="ProjekatModel.Employee" />
+    <EntitySet Name="Clients" EntityType="ProjekatModel.Client" />
+    <EntitySet Name="Orders" EntityType="ProjekatModel.Order" />
+    <EntitySet Name="Items" EntityType="ProjekatModel.Item" />
+    <EntitySet Name="Products" EntityType="ProjekatModel.Product" />
+    <AssociationSet Name="OrderEmployee" Association="ProjekatModel.OrderEmployee">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="OrderClient" Association="ProjekatModel.OrderClient">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="ItemOrder" Association="ProjekatModel.ItemOrder">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="Order" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="ItemProduct" Association="ProjekatModel.ItemProduct">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="ProjekatModel.OrderEmployee" FromRole="Employee" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="ProjekatModel.OrderClient" FromRole="Client" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="ProjekatModel.OrderEmployee" FromRole="Order" ToRole="Employee" />
+    <NavigationProperty Name="Client" Relationship="ProjekatModel.OrderClient" FromRole="Order" ToRole="Client" />
+    <NavigationProperty Name="Items" Relationship="ProjekatModel.ItemOrder" FromRole="Order" ToRole="Item" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="ItemPrice" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="ProjekatModel.ItemOrder" FromRole="Item" ToRole="Order" />
+    <NavigationProperty Name="Product" Relationship="ProjekatModel.ItemProduct" FromRole="Item" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" />
+    <Property Name="ProductPrice" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="ProjekatModel.ItemProduct" FromRole="Product" ToRole="Item" />
+  </EntityType>
+  <Association Name="OrderEmployee">
+    <End Type="ProjekatModel.Order" Role="Order" Multiplicity="*" />
+    <End Type="ProjekatModel.Employee" Role="Employee" Multiplicity="1" />
+  </Association>
+  <Association Name="OrderClient">
+    <End Type="ProjekatModel.Order" Role="Order" Multiplicity="*" />
+    <End Type="ProjekatModel.Client" Role="Client" Multiplicity="1" />
+  </Association>
+  <Association Name="ItemOrder">
+    <End Type="ProjekatModel.Item" Role="Item" Multiplicity="*" />
+    <End Type="ProjekatModel.Order" Role="Order" Multiplicity="1" />
+  </Association>
+  <Association Name="ItemProduct">
+    <End Type="ProjekatModel.Item" Role="Item" Multiplicity="*" />
+    <End Type="ProjekatModel.Product" Role="Product" Multiplicity="1" />
+  </Association>
+</Schema>
