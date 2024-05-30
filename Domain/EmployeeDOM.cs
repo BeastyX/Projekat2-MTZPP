@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Class1
+    public class EmployeeDOM
     {
+        public int EmployeeID { get; set; }
+        public string EmployeeName { get; set; }
     }
 }

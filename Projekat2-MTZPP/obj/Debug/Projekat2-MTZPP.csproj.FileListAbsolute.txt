@@ -20,3 +20,6 @@ C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\obj
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\obj\Debug\Projekat.EF5FFD71.Up2Date
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\obj\Debug\Projekat2-MTZPP.exe
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\obj\Debug\Projekat2-MTZPP.pdb
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\DataLayer.dll
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\DataLayer.pdb
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\DataLayer.dll.config

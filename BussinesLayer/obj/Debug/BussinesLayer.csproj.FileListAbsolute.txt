@@ -10,3 +10,9 @@ C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\obj\D
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\obj\Debug\Bussines.7AD6049C.Up2Date
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\obj\Debug\BussinesLayer.dll
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\obj\Debug\BussinesLayer.pdb
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\DataLayer.dll
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Domain.dll
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\DataLayer.pdb
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\DataLayer.dll.config
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Domain.pdb
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Domain.dll.config

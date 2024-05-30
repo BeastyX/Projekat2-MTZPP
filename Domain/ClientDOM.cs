@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BussinesLayer
+namespace Domain
 {
-    public class Class1
+    public class ClientDOM
     {
+        public int ClientID { get; set; }
+        public string ClientName { get; set; }
     }
 }
