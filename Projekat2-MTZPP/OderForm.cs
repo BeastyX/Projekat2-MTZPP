@@ -25,6 +25,28 @@ namespace Projekat2_MTZPP
             cmbEmployee.DataSource = eBL.GetEmployees();
             cmbEmployee.DisplayMember = "EmployeeName";
             cmbEmployee.ValueMember = "EmployeeID";
+
+            ClientBL cBL = new ClientBL();
+            cmbCustomer.DataSource = cBL.GetCustomers();
+            cmbCustomer.DisplayMember = "ClientName";
+            cmbCustomer.ValueMember = "ClientID";
+
+            ProductBL pBL = new ProductBL();
+            cmbProduct.DataSource = pBL.GetProducts();
+            cmbProduct.DisplayMember = "ProductName";
+            cmbProduct.ValueMember = "ProductID";
+
+            lblDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
+
+            cmbProduct.Enabled = false;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+            btnAddItem.Enabled = false;
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
