@@ -32,7 +32,7 @@
             this.cmbEmployee = new System.Windows.Forms.ComboBox();
             this.Employee = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbCustomer = new System.Windows.Forms.ComboBox();
+            this.cmbClient = new System.Windows.Forms.ComboBox();
             this.lbl4 = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.btnCreateOrder = new System.Windows.Forms.Button();
@@ -44,10 +44,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnAddItem = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvItem = new System.Windows.Forms.DataGridView();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItem)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbEmployee
@@ -76,13 +76,13 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Customer";
             // 
-            // cmbCustomer
+            // cmbClient
             // 
-            this.cmbCustomer.FormattingEnabled = true;
-            this.cmbCustomer.Location = new System.Drawing.Point(202, 23);
-            this.cmbCustomer.Name = "cmbCustomer";
-            this.cmbCustomer.Size = new System.Drawing.Size(121, 21);
-            this.cmbCustomer.TabIndex = 2;
+            this.cmbClient.FormattingEnabled = true;
+            this.cmbClient.Location = new System.Drawing.Point(202, 23);
+            this.cmbClient.Name = "cmbClient";
+            this.cmbClient.Size = new System.Drawing.Size(121, 21);
+            this.cmbClient.TabIndex = 2;
             // 
             // lbl4
             // 
@@ -114,6 +114,7 @@
             this.btnCreateOrder.TabIndex = 7;
             this.btnCreateOrder.Text = "Create order";
             this.btnCreateOrder.UseVisualStyleBackColor = false;
+            this.btnCreateOrder.Click += new System.EventHandler(this.btnCreateOrder_Click);
             // 
             // label2
             // 
@@ -185,14 +186,15 @@
             this.btnAddItem.TabIndex = 16;
             this.btnAddItem.Text = "Add Item";
             this.btnAddItem.UseVisualStyleBackColor = false;
+            this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
             // 
-            // dataGridView1
+            // dgvItem
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 124);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(760, 150);
-            this.dataGridView1.TabIndex = 17;
+            this.dgvItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvItem.Location = new System.Drawing.Point(12, 124);
+            this.dgvItem.Name = "dgvItem";
+            this.dgvItem.Size = new System.Drawing.Size(760, 150);
+            this.dgvItem.TabIndex = 17;
             // 
             // btnSave
             // 
@@ -205,6 +207,7 @@
             this.btnSave.TabIndex = 18;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -227,7 +230,7 @@
             this.ClientSize = new System.Drawing.Size(784, 311);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvItem);
             this.Controls.Add(this.btnAddItem);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label5);
@@ -240,7 +243,7 @@
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.cmbCustomer);
+            this.Controls.Add(this.cmbClient);
             this.Controls.Add(this.Employee);
             this.Controls.Add(this.cmbEmployee);
             this.MaximumSize = new System.Drawing.Size(800, 350);
@@ -248,7 +251,7 @@
             this.Name = "OderForm";
             this.Text = "OderForm";
             this.Load += new System.EventHandler(this.OderForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvItem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,7 +262,7 @@
         private System.Windows.Forms.ComboBox cmbEmployee;
         private System.Windows.Forms.Label Employee;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmbCustomer;
+        private System.Windows.Forms.ComboBox cmbClient;
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Button btnCreateOrder;
@@ -271,7 +274,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnAddItem;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvItem;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
     }

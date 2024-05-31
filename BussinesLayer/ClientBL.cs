@@ -10,7 +10,7 @@ namespace BussinesLayer
 {
     public class ClientBL
     {
-        public List<ClientDOM> GetCustomers()                          
+        public List<ClientDOM> GetClient()                          
         {
             DataClasses1DataContext dc = new DataClasses1DataContext();
             return Mapper.convertToList(dc.Clients.ToList<Client>());

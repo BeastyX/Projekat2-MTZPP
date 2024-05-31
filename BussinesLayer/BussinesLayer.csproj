@@ -55,6 +55,7 @@
     <Compile Include="ClientBL.cs" />
     <Compile Include="EmployeeBL.cs" />
     <Compile Include="Mapper.cs" />
+    <Compile Include="OrderBL.cs" />
     <Compile Include="ProductBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
