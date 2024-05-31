@@ -105,9 +105,9 @@
             // 
             // btnCreateOrder
             // 
-            this.btnCreateOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(219)))), ((int)(((byte)(175)))));
+            this.btnCreateOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.btnCreateOrder.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCreateOrder.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateOrder.Font = new System.Drawing.Font("MS Reference Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateOrder.Location = new System.Drawing.Point(641, 14);
             this.btnCreateOrder.Name = "btnCreateOrder";
             this.btnCreateOrder.Size = new System.Drawing.Size(131, 32);
@@ -177,9 +177,9 @@
             // 
             // btnAddItem
             // 
-            this.btnAddItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(219)))), ((int)(((byte)(175)))));
+            this.btnAddItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.btnAddItem.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAddItem.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddItem.Font = new System.Drawing.Font("MS Reference Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddItem.Location = new System.Drawing.Point(641, 82);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Size = new System.Drawing.Size(131, 32);
@@ -198,9 +198,9 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(219)))), ((int)(((byte)(175)))));
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSave.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Font = new System.Drawing.Font("MS Reference Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(597, 280);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(78, 27);
@@ -211,9 +211,9 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(219)))), ((int)(((byte)(175)))));
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancel.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Font = new System.Drawing.Font("MS Reference Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Location = new System.Drawing.Point(693, 280);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(78, 27);

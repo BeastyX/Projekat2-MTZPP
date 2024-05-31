@@ -84,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -108,6 +109,21 @@
       <Project>{94a19797-6352-4ab3-b89f-8e2a2975edc1}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logika_za_unos_slika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fsdfsd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceepus_smaller-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceepus smaller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -17,12 +17,22 @@ namespace Projekat2_MTZPP
         public Form1()
         {
             InitializeComponent();
+
+            button1.FlatAppearance.MouseOverBackColor = button1.BackColor;
+            button1.BackColorChanged += (s, e) => {
+                button1.FlatAppearance.MouseOverBackColor = button1.BackColor;
+            };
         }
 
         private void btnCreateOrder_Click(object sender, EventArgs e)
         {
             OderForm fo = new OderForm();
             fo.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

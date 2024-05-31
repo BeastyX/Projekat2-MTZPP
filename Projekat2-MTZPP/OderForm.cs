@@ -24,6 +24,7 @@ namespace Projekat2_MTZPP
 
         private void OderForm_Load(object sender, EventArgs e)
         {
+
             EmployeeBL eBL = new EmployeeBL();
             cmbEmployee.DataSource = eBL.GetEmployees();
             cmbEmployee.DisplayMember = "EmployeeName";
@@ -46,6 +47,7 @@ namespace Projekat2_MTZPP
             textBox2.Enabled = false;
             btnAddItem.Enabled = false;
 
+            cmbProduct_SelectedIndexChanged(sender, e);
             cmbProduct.SelectedIndexChanged += cmbProduct_SelectedIndexChanged;
         }
 
