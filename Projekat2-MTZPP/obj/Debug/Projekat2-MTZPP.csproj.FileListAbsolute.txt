@@ -23,3 +23,6 @@ C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\obj
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\DataLayer.dll
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\DataLayer.pdb
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\DataLayer.dll.config
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\obj\Debug\Projekat2_MTZPP.ReportForm.resources
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\Dapper.dll
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\Projekat2-MTZPP\bin\Debug\Dapper.xml

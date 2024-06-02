@@ -90,6 +90,39 @@ namespace BussinesLayer
             return od;
         }
 
+        public static ItemDOM MapToDTO(Item i)
+        {
+            ItemDOM itemDOM = new ItemDOM
+            {
+                ItemID = i.ItemID,
+                Quantity = i.Quantity,
+                ItemPrice = i.ItemPrice,
+                Order_OrderID = i.Order_OrderID,
+                Product_ProductID = i.Product_ProductID
+            };
+            return itemDOM;
+        }
+
+        // New mapping method for OrderDOM to Order
+        public static OrderDOM MapToDTO2(Order o)
+        {
+            OrderDOM oDTP = new OrderDOM
+            {
+                OrderID = o.OrderID,
+                OrderDate = o.OrderDate,
+                Employee_EmployeeID = o.Employee_EmployeeID,
+                Client_ClientID = o.Client_ClientID,
+                Items = o.Items.Select(MapToDTO).ToList()  // Map items
+            };
+            return oDTP;
+        }
+
+        // New mapping method for List<Order> to List<OrderDOM>
+        public static List<OrderDOM> MapToDomainList(IEnumerable<Order> orders)
+        {
+            return orders.Select(MapToDTO2).ToList();
+        }
+
         //Order LIST
         //public static List<OrderDOM> convertToList(ISingleResult<Order> eList)
         //{

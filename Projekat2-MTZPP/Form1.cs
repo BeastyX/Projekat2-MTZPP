@@ -30,9 +30,16 @@ namespace Projekat2_MTZPP
             fo.ShowDialog();
         }
 
+        private void BtnReport_Click(object sender, EventArgs e)
+        {
+            ReportForm rp = new ReportForm();
+            rp.ShowDialog();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }

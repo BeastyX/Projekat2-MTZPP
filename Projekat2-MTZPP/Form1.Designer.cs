@@ -33,6 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.BtnReport = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCreateOrder
@@ -92,17 +94,42 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "------";
             // 
+            // BtnReport
+            // 
+            this.BtnReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.BtnReport.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnReport.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnReport.Location = new System.Drawing.Point(12, 303);
+            this.BtnReport.Name = "BtnReport";
+            this.BtnReport.Size = new System.Drawing.Size(167, 54);
+            this.BtnReport.TabIndex = 5;
+            this.BtnReport.Text = "Report";
+            this.BtnReport.UseVisualStyleBackColor = false;
+            this.BtnReport.Click += new System.EventHandler(this.BtnReport_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(-5, 314);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(74, 31);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "------";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(246)))), ((int)(((byte)(235)))));
             this.ClientSize = new System.Drawing.Size(934, 501);
+            this.Controls.Add(this.BtnReport);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCreateOrder);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
             this.MaximumSize = new System.Drawing.Size(950, 540);
             this.MinimumSize = new System.Drawing.Size(950, 540);
             this.Name = "Form1";
@@ -120,6 +147,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button BtnReport;
+        private System.Windows.Forms.Label label4;
     }
 }
 

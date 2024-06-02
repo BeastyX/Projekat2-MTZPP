@@ -55,6 +55,7 @@
     <Compile Include="EmployeeDOM.cs" />
     <Compile Include="ItemDOM.cs" />
     <Compile Include="OrderDOM.cs" />
+    <Compile Include="OrderReportDOM.cs" />
     <Compile Include="ProductDOM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

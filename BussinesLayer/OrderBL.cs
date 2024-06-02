@@ -5,6 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain;
 using DataLayer;
+using System.Data.SqlClient;
+using System.Data;
+using Dapper;
+using System.Configuration;
+using System.Linq.Expressions;
+using System.Xml.Linq;
 
 namespace BussinesLayer
 {
@@ -58,6 +64,21 @@ namespace BussinesLayer
                     context.Items.DeleteOnSubmit(item);
                     context.SubmitChanges();
                 }
+            }
+        }
+
+        private string connectionString = ConfigurationManager.ConnectionStrings["MicrosoftProjekat2"].ConnectionString;
+
+        public List<OrderReportDOM> GetOrderReport(int? employeeId = null, int? clientId = null, int? productId = null)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var parameters = new DynamicParameters();
+                parameters.Add("employeeId", employeeId, DbType.Int32);
+                parameters.Add("clientId", clientId, DbType.Int32);
+                parameters.Add("productId", productId, DbType.Int32);
+
+                return connection.Query<OrderReportDOM>("GetOrderReport", parameters, commandType: CommandType.StoredProcedure).ToList();
             }
         }
     }

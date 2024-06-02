@@ -12,5 +12,7 @@ namespace Domain
         public System.DateTime OrderDate { get; set; }
         public int Employee_EmployeeID { get; set; }
         public int Client_ClientID { get; set; }
+
+        public List<ItemDOM> Items { get; set; } = new List<ItemDOM>();
     }
 }

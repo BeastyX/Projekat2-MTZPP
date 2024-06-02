@@ -16,3 +16,5 @@ C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\D
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\DataLayer.dll.config
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Domain.pdb
 C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Domain.dll.config
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Dapper.dll
+C:\Fakultet\Microsoft tehnologije za pristup\Projekat2-MTZPP\BussinesLayer\bin\Debug\Dapper.xml
