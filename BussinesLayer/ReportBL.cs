@@ -10,13 +10,14 @@ namespace BussinesLayer
 {
     public class ReportBL
     {
+        //LINQ upit za dobavljanje filtriranih podataka iz base 🌅
         public List<OrderDOM> GetFilteredOrders(int? employeeId, int? clientId, int? productId)
         {
             using (var context = new DataClasses1DataContext())
             {
-                var query = context.Orders.AsQueryable();
+                var query = context.Orders.AsQueryable(); //AsQueryable - omogucava da se na upit primene dodatni LINK Uslovi 😨
 
-                if (employeeId.HasValue)
+                if (employeeId.HasValue) // != NULL ☁️
                 {
                     query = query.Where(o => o.Employee_EmployeeID == employeeId.Value);
                 }
@@ -31,7 +32,7 @@ namespace BussinesLayer
                     query = query.Where(o => o.Items.Any(i => i.Product_ProductID == productId.Value));
                 }
 
-                var orders = query.ToList();
+                var orders = query.ToList(); // Vraca listu porudzbina 🌬️
                 return Mapper.MapToDomainList(orders);
             }
         }

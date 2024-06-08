@@ -13,5 +13,10 @@ namespace Domain
         public decimal ItemPrice { get; set; }
         public int Order_OrderID { get; set; }
         public int Product_ProductID { get; set; }
+
+        public decimal TotalPrice
+        {
+            get { return ItemPrice * Quantity; }
+        }
     }
 }

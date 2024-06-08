@@ -3,72 +3,24 @@
   "WorkspaceRootPath": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|c:\\fakultet\\microsoft tehnologije za pristup\\projekat2-mtzpp\\bussineslayer\\orderbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\orderbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|c:\\fakultet\\microsoft tehnologije za pristup\\projekat2-mtzpp\\projekat2-mtzpp\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|c:\\fakultet\\microsoft tehnologije za pristup\\projekat2-mtzpp\\projekat2-mtzpp\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\bussineslayer\\reportbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\reportbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\bussineslayer\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\domain\\orderreportdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|solutionrelative:domain\\orderreportdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D91BA673-EF99-4CAF-8682-574E75E96A3D}|DataLayer\\DataLayer.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\datalayer\\projekatmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{D91BA673-EF99-4CAF-8682-574E75E96A3D}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\projekatmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\domain\\orderdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|solutionrelative:domain\\orderdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\domain\\itemdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|solutionrelative:domain\\itemdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\oderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\oderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\oderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|c:\\fakultet\\microsoft tehnologije za pristup\\projekat2-mtzpp\\projekat2-mtzpp\\oderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\oderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\projekat2-mtzpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|c:\\fakultet\\microsoft tehnologije za pristup\\projekat2-mtzpp\\projekat2-mtzpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E185DDA3-9904-417E-8020-6CD865D0BEBA}|Projekat2-MTZPP\\Projekat2-MTZPP.csproj|solutionrelative:projekat2-mtzpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\domain\\employeedom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|solutionrelative:domain\\employeedom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D91BA673-EF99-4CAF-8682-574E75E96A3D}|DataLayer\\DataLayer.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\datalayer\\projekatmodel.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D91BA673-EF99-4CAF-8682-574E75E96A3D}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\projekatmodel.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\bussineslayer\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12EB28BE-7976-4605-8CC9-5C4C7037E74D}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|c:\\fakultet\\microsoft tehnologije za pristup\\projekat2-mtzpp\\domain\\productdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A19797-6352-4AB3-B89F-8E2A2975EDC1}|Domain\\Domain.csproj|solutionrelative:domain\\productdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -77,208 +29,90 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 294,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 299,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditForm.cs [Design]",
+              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\EditForm.cs",
+              "RelativeDocumentMoniker": "Projekat2-MTZPP\\EditForm.cs",
+              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\EditForm.cs [Design]",
+              "RelativeToolTip": "Projekat2-MTZPP\\EditForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T06:54:39.367Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\App.config",
-              "RelativeDocumentMoniker": "Projekat2-MTZPP\\App.config",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\App.config",
-              "RelativeToolTip": "Projekat2-MTZPP\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-06-02T13:12:56.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderReportDOM.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\OrderReportDOM.cs",
-              "RelativeDocumentMoniker": "Domain\\OrderReportDOM.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\OrderReportDOM.cs",
-              "RelativeToolTip": "Domain\\OrderReportDOM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T13:02:36.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReportBL.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\ReportBL.cs",
-              "RelativeDocumentMoniker": "BussinesLayer\\ReportBL.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\ReportBL.cs",
-              "RelativeToolTip": "BussinesLayer\\ReportBL.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwCEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T12:40:40.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportForm.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\ReportForm.cs",
-              "RelativeDocumentMoniker": "Projekat2-MTZPP\\ReportForm.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\ReportForm.cs",
-              "RelativeToolTip": "Projekat2-MTZPP\\ReportForm.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAgwCsAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T12:34:48.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ReportForm.cs [Design]",
               "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\ReportForm.cs",
               "RelativeDocumentMoniker": "Projekat2-MTZPP\\ReportForm.cs",
               "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\ReportForm.cs [Design]",
               "RelativeToolTip": "Projekat2-MTZPP\\ReportForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T12:33:48.158Z"
+              "WhenOpened": "2024-06-08T06:54:38.433Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\Form1.cs",
-              "RelativeDocumentMoniker": "Projekat2-MTZPP\\Form1.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\Form1.cs",
-              "RelativeToolTip": "Projekat2-MTZPP\\Form1.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwCcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T12:33:04.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderBL.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\OrderBL.cs",
-              "RelativeDocumentMoniker": "BussinesLayer\\OrderBL.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\OrderBL.cs",
-              "RelativeToolTip": "BussinesLayer\\OrderBL.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwEIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T12:36:56.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OderForm.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\OderForm.cs",
-              "RelativeDocumentMoniker": "Projekat2-MTZPP\\OderForm.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\OderForm.cs",
-              "RelativeToolTip": "Projekat2-MTZPP\\OderForm.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAMwEYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T09:12:08.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\Mapper.cs",
-              "RelativeDocumentMoniker": "BussinesLayer\\Mapper.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\Mapper.cs",
-              "RelativeToolTip": "BussinesLayer\\Mapper.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAQwGoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:33:34.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "OderForm.cs [Design]",
               "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\OderForm.cs",
               "RelativeDocumentMoniker": "Projekat2-MTZPP\\OderForm.cs",
               "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\OderForm.cs [Design]",
               "RelativeToolTip": "Projekat2-MTZPP\\OderForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T09:12:00.136Z"
+              "WhenOpened": "2024-06-08T06:54:36.773Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProjekatModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\DataLayer\\ProjekatModel.edmx",
-              "RelativeDocumentMoniker": "DataLayer\\ProjekatModel.edmx",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\DataLayer\\ProjekatModel.edmx [Diagram1]",
-              "RelativeToolTip": "DataLayer\\ProjekatModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-05-29T18:02:11.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderDOM.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\OrderDOM.cs",
-              "RelativeDocumentMoniker": "Domain\\OrderDOM.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\OrderDOM.cs",
-              "RelativeToolTip": "Domain\\OrderDOM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T12:54:55.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItemDOM.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\ItemDOM.cs",
-              "RelativeDocumentMoniker": "Domain\\ItemDOM.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\ItemDOM.cs",
-              "RelativeToolTip": "Domain\\ItemDOM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T12:55:49.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeeBL.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\EmployeeBL.cs",
-              "RelativeDocumentMoniker": "BussinesLayer\\EmployeeBL.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\BussinesLayer\\EmployeeBL.cs",
-              "RelativeToolTip": "BussinesLayer\\EmployeeBL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:01:32.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\Form1.cs",
               "RelativeDocumentMoniker": "Projekat2-MTZPP\\Form1.cs",
               "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Projekat2-MTZPP\\Form1.cs [Design]",
               "RelativeToolTip": "Projekat2-MTZPP\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T13:13:51.198Z"
-            },
+              "WhenOpened": "2024-06-08T06:54:35.3Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e410ace0-d6db-4bab-a292-a8fbf0e95812",
+        "Display": 0,
+        "X": 20,
+        "Y": 85,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EmployeeDOM.cs",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\EmployeeDOM.cs",
-              "RelativeDocumentMoniker": "Domain\\EmployeeDOM.cs",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\EmployeeDOM.cs",
-              "RelativeToolTip": "Domain\\EmployeeDOM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "DocumentIndex": 4,
+              "Title": "ProductDOM.cs",
+              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\ProductDOM.cs",
+              "RelativeDocumentMoniker": "Domain\\ProductDOM.cs",
+              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\Domain\\ProductDOM.cs",
+              "RelativeToolTip": "Domain\\ProductDOM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T13:07:43.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProjekatModel.edmx.sql",
-              "DocumentMoniker": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\DataLayer\\ProjekatModel.edmx.sql",
-              "RelativeDocumentMoniker": "DataLayer\\ProjekatModel.edmx.sql",
-              "ToolTip": "C:\\Fakultet\\Microsoft tehnologije za pristup\\Projekat2-MTZPP\\DataLayer\\ProjekatModel.edmx.sql",
-              "RelativeToolTip": "DataLayer\\ProjekatModel.edmx.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-29T18:02:30.853Z"
+              "WhenOpened": "2024-06-08T06:24:01.723Z",
+              "EditorCaption": ""
             }
           ]
         }

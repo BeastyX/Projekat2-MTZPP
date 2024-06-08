@@ -12,6 +12,7 @@ namespace BussinesLayer
     {
         public List<ClientDOM> GetClient()                          
         {
+            //Pokupi listu clients iz baze i pretvori u listu clients.. DOM
             DataClasses1DataContext dc = new DataClasses1DataContext();
             return Mapper.convertToList(dc.Clients.ToList<Client>());
         }

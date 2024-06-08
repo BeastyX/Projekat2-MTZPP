@@ -8,6 +8,7 @@ namespace Domain
 {
     public class OrderReportDOM
     {
+        public int OrderID { get; set; }
         public string EmployeeName { get; set; }
         public string ClientName { get; set; }
         public DateTime OrderDate { get; set; }

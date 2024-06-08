@@ -24,17 +24,19 @@ namespace Projekat2_MTZPP
 
         private void OderForm_Load(object sender, EventArgs e)
         {
-
+            // Popunjavanje comboBox Employee 💼
             EmployeeBL eBL = new EmployeeBL();
             cmbEmployee.DataSource = eBL.GetEmployees();
             cmbEmployee.DisplayMember = "EmployeeName";
             cmbEmployee.ValueMember = "EmployeeID";
 
+            // Popunjavanje comboBox Client 💁
             ClientBL cBL = new ClientBL();
             cmbClient.DataSource = cBL.GetClient();
             cmbClient.DisplayMember = "ClientName";
             cmbClient.ValueMember = "ClientID";
 
+            // Popunjavanje comboBox Product 📦
             ProductBL pBL = new ProductBL();
             cmbProduct.DataSource = pBL.GetProducts();
             cmbProduct.DisplayMember = "ProductName";
@@ -51,17 +53,19 @@ namespace Projekat2_MTZPP
             cmbProduct.SelectedIndexChanged += cmbProduct_SelectedIndexChanged;
         }
 
+        //Price na osnovu izabranog Producta
         private void cmbProduct_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var selectedProduct = (ProductDOM)cmbProduct.SelectedItem;
+            var selectedProduct = (ProductDOM)cmbProduct.SelectedItem; //castovanje iz comboBoxa u Prdouct domain, dobijamo selectovani proizvod
             if (selectedProduct != null)
             {
-                textBox1.Text = selectedProduct.ProductPrice.ToString();
+                textBox1.Text = selectedProduct.ProductPrice.ToString(); // postavlja cenu proizvoda u txt box
             }
         }
 
         private void btnCreateOrder_Click(object sender, EventArgs e)
         {
+            // Popunjavanje Order domaina
             oDOM.OrderDate = DateTime.Parse(lblDate.Text);
             oDOM.Employee_EmployeeID = (Int32)cmbEmployee.SelectedValue;
             oDOM.Client_ClientID = (Int32)cmbClient.SelectedValue;

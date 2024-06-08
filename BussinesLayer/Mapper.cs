@@ -6,11 +6,10 @@ using System.Data.Linq;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataLayer;
-using Domain;
 
 namespace BussinesLayer
 {
+    // Poenta Mappera je da napravi separaciju izmedju sloja pristupa podacima i sloja poslovne logike
     public static class Mapper
     {
         public static EmployeeDOM MapToDTO(Employee e)
@@ -64,6 +63,17 @@ namespace BussinesLayer
             oDTP.Client_ClientID = o.Client_ClientID;
 
             return oDTP;
+        }
+
+        public static OrderDOM MapToDTOO(Order order)
+        {
+            return new OrderDOM
+            {
+                OrderID = order.OrderID,
+                OrderDate = order.OrderDate,
+                Employee_EmployeeID = order.Employee_EmployeeID,
+                Client_ClientID = order.Client_ClientID
+            };
         }
 
         public static ProductDOM MapToDTO(Product p)
@@ -134,6 +144,7 @@ namespace BussinesLayer
         //}
         public static List<EmployeeDOM> convertToList(List<Employee> eList)
         {
+            // Konvertovanje liste employees u listu employeeDOM objekata
             List<EmployeeDOM> l = new List<EmployeeDOM>();
             foreach (Employee e in eList)
                 l.Add(MapToDTO(e));

@@ -12,6 +12,7 @@ namespace BussinesLayer
     {
         public List<EmployeeDOM> GetEmployees()
         {
+            //Pokupi listu zapolsenih iz baze i pretvori u listu zaposlenih
             DataClasses1DataContext dc = new DataClasses1DataContext();
             return Mapper.convertToList(dc.Employees.ToList<Employee>());
         }
